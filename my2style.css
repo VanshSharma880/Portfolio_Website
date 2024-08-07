@@ -9,7 +9,7 @@ body .hr {
 }
 
 :root {
-    --blue: rgb(23, 6, 56);
+    --blue: #f95959;
 }
 
 * {
@@ -26,8 +26,8 @@ body .hr {
 }
 
 *::selection {
-    background: var(--blue);
-    color: #333;
+    background: #f95959;
+    color: #f95959;
 }
 
 html {
@@ -49,7 +49,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
     
-    background-color: rgb(162, 129, 230);
+    background-color: #233142;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -61,8 +61,7 @@ section {
 
 .btn {
     padding: .7rem 3rem;
-    background: rgb(56, 44, 80);
-    ;
+    background: #f95959;
     color: #ffffff;
     cursor: pointer;
     margin-top: 1rem;
@@ -76,7 +75,7 @@ section {
 }
 
 .btn:hover {
-    background: rgb(23, 6, 56);
+    background: #f86666;
 }
 
 .heading {
@@ -84,12 +83,12 @@ section {
     margin: 0 6rem;
     font-size: 4rem;
     padding: 1rem;
-    border-block: .3rem solid rgba(0, 0, 0, 0.267);
+    border-block: .3rem solid rgba(255, 255, 255, 0.267);
     color: #fff;
 }
 
 .heading span {
-    color: var(--blue);
+    color: white;
 }
 
 header {
@@ -100,7 +99,7 @@ header {
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: rgb(172, 138, 240);
+    background: #34455b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,17 +113,19 @@ header .user img {
     border-radius: 25%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid rgb(48, 46, 46);
+    border: .7rem solid #233142;
 }
 
 header .user .name {
     font-size: 3.5rem;
-    color: #000000;
+    color: white;
 }
 
 header .user .post {
     font-size: 2rem;
-    color: #e7dbee;
+    color: rgb(175, 175, 175);
+    text-decoration: overline;
+
 }
 
 header .navbar {
@@ -141,14 +142,14 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background: #3e3147;
-    color: #e1e1e1;
+    background: #f95959;
+    color: #233142;
     font-size: 2rem;
     border-radius: 1rem;
 }
 
 header .navbar ul li a:hover{
-    background-color:rgb(23, 6, 56);
+    background-color:#f76d6d;
 }
 
 #menu {
@@ -173,16 +174,16 @@ header .navbar ul li a:hover{
 
 .home h3 {
     font-size: 2.5rem;
-    color: rgb(81 37 135);
+    color: #f95959;
 }
 
 .home h1 {
     font-size: 5rem;
-    color:rgb(81 37 135);
+    color:#f95959;
 }
 
 .home h1 span {
-    color: var(--blue);
+    color: white;
 }
 
 .home p {
@@ -214,7 +215,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span {
-    color: rgb(23, 6, 56);
+    color: #f95959;
     padding: 0 .5rem;
 }
 
@@ -234,7 +235,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span {
     font-size: 4rem;
-    color: var(--blue);
+    color: #f95959;
 }
 
 .about .row .counter .box h3 {
@@ -261,13 +262,13 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span {
     font-size: 1.3rem;
-
+    color: white;
     border-radius: 5rem;
 }
 
 .education .box-container .box h3 {
     font-size: 3rem;
-    color: rgb(23, 6, 56);
+    color: white;
     padding-top: 1.5rem;
 }
 
@@ -289,7 +290,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    background: #3e3147;
+    background: #f95959;
 }
 
 .skills .box-container {
@@ -348,6 +349,7 @@ header .navbar ul li a:hover{
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
+    border-radius: 15px;
 }
 
 .contact .row form .box::placeholder {
